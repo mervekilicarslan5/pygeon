@@ -1,0 +1,6 @@
+./models
+./deepreduce_models
+./data
+*.pth
+*.bin
+*.tar.gz
