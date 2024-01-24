@@ -44,13 +44,15 @@ def main():
     model = LeNet5(num_classes=10) # replace with Qunatized LeNet
     dataset_name = 'MNIST'
     modelpath = './models/lenet5_mnist'
-    num_epochs = 20
+    num_epochs = 80
     lr = 0.01
-    train_model(model,dataset_name,num_epochs,lr) # replace with qunatized training function
-    parameter_export.save_quantized_weights_compatible_with_cpp(model, modelpath+'.bin') 
-    parameter_export.save_quantization_params(model, modelpath+'bin_quant')
-    train_loader, test_loader,num_classes = data_load.load_dataset(dataset_name) # replace with qunatized dataset loader
-    data_load.export_quantized_dataset(test_loader,'./data/'+dataset_name+'_test_images.bin','./data/'+dataset_name+'_test_labels.bin') # export qunatized dataset
+    train_model(model,dataset_name,num_epochs,lr) 
+    parameter_export.save_weights_compatible_with_cpp(model, modelpath+'.bin')
+    #export_test_dataset(dataset_name) 
+    # parameter_export.save_quantized_weights_compatible_with_cpp(model, modelpath+'.bin') 
+    # parameter_export.save_quantization_params(model, modelpath+'bin_quant')
+    # train_loader, test_loader,num_classes = data_load.load_dataset(dataset_name) # replace with qunatized dataset loader
+    # data_load.export_quantized_dataset(test_loader,'./data/'+dataset_name+'_test_images.bin','./data/'+dataset_name+'_test_labels.bin') # export qunatized dataset
 
 
 
