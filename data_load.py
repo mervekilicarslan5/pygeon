@@ -88,17 +88,28 @@ def export_dataset(dataset, images_filename, labels_filename):
             lbl_file.write(struct.pack('i', lbl_data))
 
 
-def export_quantized_dataset(dataset, images_filename, labels_filename):
+def export_quantized_dataset(model, dataset, images_filename, labels_filename):
     with open(images_filename, 'wb') as img_file, open(labels_filename, 'wb') as lbl_file:
         for image, label in dataset:
-            # Convert image to numpy array, ensure it's float32, and flatten
+            #Convert image to numpy array, ensure it's float32, and flatten TO DO FIX HERER
+            image = model.quant_x(image).int_repr()
             img_data = image.numpy().astype(np.int32).flatten()
 
             # Write the flattened image data to the binary file
-            img_file.write(struct.pack('f' * len(img_data), *img_data))
+            img_file.write(struct.pack('i' * len(img_data), *img_data))
 
             # Ensure label is an int and write to the binary file
-            lbl_data = np.array(label).astype(np.uint32)
-            lbl_file.write(struct.pack('i', lbl_data))
+            #lbl_data = np.array(label).astype(np.uint32)
+            #lbl_file.write(struct.pack('I', lbl_data))
+            # Handle different types of labels
+            if isinstance(label, torch.Tensor):
+                label = label.numpy()  # Convert to numpy if it's a tensor
+            if label.ndim == 0:
+                label = np.expand_dims(label, axis=0)  # Ensure label is at least 1D
+            lbl_data = label.astype(np.uint32)
+
+            # Write each label element separately
+            for lbl in lbl_data:
+                lbl_file.write(struct.pack('I', lbl))
 
 

@@ -1,30 +1,54 @@
+import torchvision.models as models
 import torch
 import torch.nn as nn
-import torchvision.models as models
-
+import torch.optim as optim
+from torchvision import datasets, transforms
+from torch.utils.data import DataLoader
+from torch.quantization import QuantStub, DeQuantStub, convert
+import numpy as np
+import torch
+import json
 # Define the models
 
 class LeNet(nn.Module):
-    def __init__(self):
+    def __init__(self, quantization = False):
         super(LeNet, self).__init__()
+        
         self.features = nn.Sequential(
-            nn.Conv2d(1, 20, kernel_size=5),
+            nn.Conv2d(1, 6, kernel_size=5, stride=1, padding=2),
             nn.ReLU(),
             nn.AvgPool2d(2, stride=2),
-            nn.Conv2d(20, 50, kernel_size=5),
+            nn.Conv2d(6, 16, kernel_size=5, stride=1, padding=0),
             nn.ReLU(),
             nn.AvgPool2d(2, stride=2),
         )
         self.classifier = nn.Sequential(
             nn.Flatten(),
-            nn.Linear(800, 500),
+            nn.Linear(400, 120),  # Adjusted dimension
             nn.ReLU(),
-            nn.Linear(500, 10)
+            nn.Linear(120, 84),  # Adjusted dimension
+            nn.ReLU(),
+            nn.Linear(84, 10)  # Adjusted dimension
         )
+        self.quantization =  quantization
+        # Quantization and Dequantization stubs
+        if  quantization:
+          self.quant = QuantStub()
+          self.dequant = DeQuantStub()
 
     def forward(self, x):
+        if self.quantization:
+          x = self.quant(x)  # Quantize input
         x = self.features(x)
+        x = x.reshape(x.shape[0], -1) #Dont use view
         x = self.classifier(x)
+        if self. quantization:
+          x = self.dequant(x)  # Dequantize output
+        return x
+    
+    def quant_x(self, x):
+        if self.quantization:
+          x = self.quant(x)  # Quantize input
         return x
 
 class AlexNet(nn.Module):
