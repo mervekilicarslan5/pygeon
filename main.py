@@ -53,7 +53,7 @@ def main():
     model = cnns.LeNet(quantization=False) # replace with Qunatized LeNet
     dataset_name = 'MNIST'
     modelpath = './models/lenet5_mnist'
-    num_epochs = 8
+    num_epochs = 20
     lr = 0.01
     train_model(model,dataset_name,num_epochs,lr) # replace with qunatized training function
     train_loader, test_loader,num_classes = data_load.load_dataset(dataset_name)

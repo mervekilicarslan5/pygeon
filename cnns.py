@@ -301,7 +301,7 @@ class ResNet(nn.Module):
         return nn.Sequential(*layers)
         
 
-    def __init__(self, block, layers, image_channels, num_classes):
+    def __init__(self, block, layers, image_channels, num_classes, pool_option='max'):
         super(ResNet, self).__init__()
         self.in_channels = 64
         self.conv1 = nn.Conv2d(
@@ -309,7 +309,11 @@ class ResNet(nn.Module):
         )
         self.bn1 = nn.BatchNorm2d(64)
         self.relu = nn.ReLU()
-        self.maxpool1 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)  # Changed to MaxPool2d
+        if pool_option == 'max':
+            self.maxpool1 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)
+        elif pool_option == 'avg':
+            self.maxpool1 = nn.AvgPool2d(kernel_size=3, stride=2, padding=1)
+        # self.maxpool1 = nn.MaxPool2d(kernel_size=3, stride=2, padding=1)  # Changed to MaxPool2d
         # self.avgpool1 = nn.AvgPool2d(kernel_size=3, stride=2, padding=0)  # Changed to AvgPool2d with no padding
 
         # ResNet layers
@@ -355,4 +359,18 @@ def ResNet101(img_channel=3, num_classes=1000):
 def ResNet152(img_channel=3, num_classes=1000):
     return ResNet(block, [3, 8, 36, 3], img_channel, num_classes)
 
+def ResNet18(img_channel=3, num_classes=1000):
+    return ResNet(block, [2, 2, 2, 2], img_channel, num_classes)
+
+def ResNet50_avg(img_channel=3, num_classes=1000):
+    return ResNet(block, [3, 4, 6, 3], img_channel, num_classes, 'avg')
+
+def ResNet101_avg(img_channel=3, num_classes=1000):
+    return ResNet(block, [3, 4, 23, 3], img_channel, num_classes, 'avg')
+
+def ResNet152_avg(img_channel=3, num_classes=1000):
+    return ResNet(block, [3, 8, 36, 3], img_channel, num_classes, 'avg')
+
+def ResNet18_avg(img_channel=3, num_classes=1000):
+    return ResNet(block, [2, 2, 2, 2], img_channel, num_classes, 'avg')
 
