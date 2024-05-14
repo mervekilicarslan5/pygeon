@@ -1,0 +1,145 @@
+comp.time(s),comp.peakRAM(MiB),bin.filesize(MiB),ssl,threads,datatype,function,optshare,packbool,protocol,rxbuffer,txbuffer,latencies(ms),input_size,preprocess,splitroles,verifybuffer,inittime(s),preproc(s),runtime_clock(s),runtime_getTime(s),runtime_chrono(s),runtime_external(s),peakRAM(MiB),jobCPU(%),runtime_chrono(ms),Configuration,Quantized,Combined Configuration
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,0,1,0,1,1,0.01737,,0.172487,0.522238,0.534028,0.545833,3572,813,534.0279999999999,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,0,1,0,1,1,0.017705,,0.166364,0.521575,0.533515,0.552916,3205,772,533.515,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,0,1,0,1,1,0.017841,,0.168621,0.451346,0.530383,0.54625,3403,790,530.383,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,25,1,0,1,1,0.020064,,0.165493,4.882408,4.897482,4.916666,4494,87,4897.482,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,25,1,0,1,1,0.019077,,0.166302,4.882062,4.891575,4.90875,4494,88,4891.575,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,25,1,0,1,1,0.018999,,0.165297,4.884502,4.89648,4.912083,4494,87,4896.4800000000005,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,50,1,0,1,1,0.02441,,0.161737,9.630444,9.659379,9.676666,4562,43,9659.378999999999,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,50,1,0,1,1,0.019981,,0.165434,9.631456,9.657311,9.674583,4556,43,9657.311,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,50,1,0,1,1,0.023818,,0.164216,9.632768,9.661425,9.683333,4562,43,9661.425,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,75,1,0,1,1,0.029858,,0.164049,14.377221,14.418833,14.445833,4581,29,14418.832999999999,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,75,1,0,1,1,0.025232,,0.164894,14.390548,14.431094,14.455416,4592,29,14431.094,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,0,5,10000,10000,75,1,0,1,1,0.022681,,0.165535,14.384958,14.413675,14.43625,4580,29,14413.675,ResNet50 - Bandwidth Optimized,Non-Quantized,ResNet50 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,0,1,0,1,1,0.013586,,0.155276,0.215561,0.22625,0.237916,3127,1681,226.25,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,0,1,0,1,1,0.016593,,0.161583,0.216278,0.227117,0.23875,3402,1748,227.11700000000002,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,0,1,0,1,1,0.018242,,0.156489,0.2171,0.224682,0.2375,3205,1694,224.682,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,25,1,0,1,1,0.019852,,0.149718,2.518903,2.533674,2.549583,4496,154,2533.674,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,25,1,0,1,1,0.020941,,0.151596,2.517727,2.527952,2.545833,4490,155,2527.9519999999998,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,25,1,0,1,1,0.020685,,0.149744,2.519358,2.53073,2.549166,4502,155,2530.73,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,50,1,0,1,1,0.021943,,0.149729,4.937459,4.971644,4.9975,4599,77,4971.644,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,50,1,0,1,1,0.023548,,0.150111,4.938634,4.957188,4.97375,4554,78,4957.188,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,50,1,0,1,1,0.022544,,0.148902,4.93648,4.964231,4.985416,4552,78,4964.231,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,75,1,0,1,1,0.029986,,0.149964,7.345101,7.385476,7.41,4576,52,7385.476,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,75,1,0,1,1,0.025944,,0.147716,7.356579,7.410064,7.437083,4578,51,7410.064,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,71,1,1,5,10000,10000,75,1,0,1,1,0.027795,,0.15092,7.34982,7.389683,7.411666,4581,53,7389.683,ResNet50 - Bandwidth Optimized,Quantized,ResNet50 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,0,1,0,1,1,0.016619,,0.155526,0.132649,0.14188,0.1525,3596,2629,141.88,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,0,1,0,1,1,0.018246,,0.148789,0.13277,0.140217,0.152083,3332,2513,140.217,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,0,1,0,1,1,0.018518,,0.154262,0.133306,0.138372,0.1525,3333,2611,138.37199999999999,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,25,1,0,1,1,0.017561,,0.151255,1.809102,1.817745,1.837083,4596,218,1817.745,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,25,1,0,1,1,0.018062,,0.152087,1.811147,1.819919,1.83875,4588,217,1819.919,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,25,1,0,1,1,0.018716,,0.15216,1.809527,1.82236,1.837916,4591,218,1822.36,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,50,1,0,1,1,0.022668,,0.150084,3.610893,3.644843,3.663333,4656,107,3644.843,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,50,1,0,1,1,0.024798,,0.149849,3.609251,3.633123,3.65125,4652,108,3633.123,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,50,1,0,1,1,0.021711,,0.150892,3.606599,3.626909,3.646666,4652,107,3626.909,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,75,1,0,1,1,0.025186,,0.150862,5.411266,5.455878,5.476666,4680,71,5455.878000000001,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,75,1,0,1,1,0.019086,,0.149865,5.405395,5.461727,5.4825,4674,70,5461.727,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,0,5,10000,10000,75,1,0,1,1,0.025448,,0.150701,5.401538,5.440193,5.463333,4720,71,5440.193,ResNet50 - Balanced,Non-Quantized,ResNet50 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,0,1,0,1,1,0.016224,,0.153557,0.131281,0.140411,0.150833,3334,2603,140.411,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,0,1,0,1,1,0.017152,,0.15445,0.128974,0.137703,0.148333,3290,2661,137.703,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,0,1,0,1,1,0.013996,,0.155015,0.130024,0.135465,0.147916,3398,2695,135.465,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,25,1,0,1,1,0.020632,,0.147114,1.819552,1.828737,1.850833,4527,208,1828.737,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,25,1,0,1,1,0.019764,,0.147521,1.819161,1.828188,1.844583,4533,210,1828.1879999999999,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,25,1,0,1,1,0.019583,,0.148905,1.820205,1.831275,1.848333,4531,211,1831.275,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,50,1,0,1,1,0.025379,,0.145608,3.631271,3.666619,3.685,4595,103,3666.6189999999997,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,50,1,0,1,1,0.023953,,0.148057,3.625721,3.651686,3.6775,4591,104,3651.686,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,50,1,0,1,1,0.023906,,0.14755,3.626169,3.657338,3.675,4596,104,3657.338,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,75,1,0,1,1,0.026136,,0.145836,5.433902,5.468056,5.492083,4608,68,5468.056,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,75,1,0,1,1,0.025437,,0.146465,5.430423,5.47472,5.498333,4612,69,5474.719999999999,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,171,1,1,5,10000,10000,75,1,0,1,1,0.019307,,0.148708,5.438146,5.45958,5.480833,4613,70,5459.58,ResNet50 - Balanced,Quantized,ResNet50 - Balanced - Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,0,1,0,1,1,0.016496,,0.157373,0.133272,0.141941,0.1525,3399,2636,141.941,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,0,1,0,1,1,0.016262,,0.157591,0.134407,0.141427,0.152083,3343,2664,141.427,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,0,1,0,1,1,0.017727,,0.152866,0.133848,0.142838,0.154583,3222,2526,142.838,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,25,1,0,1,1,0.020863,,0.152634,2.119037,2.131451,2.146666,4539,184,2131.451,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,25,1,0,1,1,0.017071,,0.154719,2.119098,2.13017,2.144166,4543,188,2130.17,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,25,1,0,1,1,0.020445,,0.153982,2.121655,2.131175,2.1475,4538,187,2131.1749999999997,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,50,1,0,1,1,0.022339,,0.150844,4.220509,4.241056,4.259166,4604,91,4241.0560000000005,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,50,1,0,1,1,0.023963,,0.151985,4.224867,4.247397,4.265,4599,92,4247.397,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,50,1,0,1,1,0.022544,,0.152502,4.22438,4.243881,4.265416,4603,92,4243.881,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,75,1,0,1,1,0.025589,,0.151898,6.32715,6.355286,6.375416,4661,61,6355.286,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,75,1,0,1,1,0.025283,,0.152203,6.331685,6.368304,6.3925,4629,61,6368.304,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,0,5,10000,10000,75,1,0,1,1,0.022553,,0.152435,6.327962,6.362239,6.382083,4626,61,6362.239,ResNet50 - Latency Optimized,Non-Quantized,ResNet50 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,0,1,0,1,1,0.012079,,0.156538,0.132354,0.13709,0.147916,3514,2711,137.09,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,0,1,0,1,1,0.009981,,0.148641,0.131164,0.137767,0.148333,3268,2571,137.767,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,0,1,0,1,1,0.018401,,0.152387,0.130274,0.136966,0.149583,3495,2650,136.966,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,25,1,0,1,1,0.020254,,0.147597,2.025994,2.038026,2.05875,4515,187,2038.0259999999998,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,25,1,0,1,1,0.013107,,0.149534,2.022483,2.033,2.05,4519,195,2033.0,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,25,1,0,1,1,0.017658,,0.151349,2.026055,2.035086,2.052083,4523,195,2035.0860000000002,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,50,1,0,1,1,0.021545,,0.146981,4.034157,4.063002,4.0875,4579,94,4063.002,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,50,1,0,1,1,0.021553,,0.147878,4.036507,4.084482,4.103333,4583,94,4084.4820000000004,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.03,3,1,0,4,512,271,1,1,5,10000,10000,50,1,0,1,1,0.021519,,0.148058,4.034671,4.064818,4.083333,4615,94,4064.8179999999998,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,75,1,0,1,1,0.025878,,0.148455,6.050289,6.114451,6.13875,4602,63,6114.451,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,75,1,0,1,1,0.028178,,0.148206,6.048076,6.091232,6.113333,4605,63,6091.232,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,271,1,1,5,10000,10000,75,1,0,1,1,0.019582,,0.149515,6.055282,6.095055,6.117083,4607,63,6095.055,ResNet50 - Latency Optimized,Quantized,ResNet50 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,0,1,0,1,1,0.012578,,0.132358,0.162195,0.172725,0.18125,2270,1845,172.725,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,0,1,0,1,1,0.01258,,0.131315,0.16232,0.178631,0.185833,2180,1796,178.631,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,0,1,0,1,1,0.012763,,0.132034,0.164933,0.175141,0.1875,2161,1802,175.141,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,25,1,0,1,1,0.016016,,0.131433,1.815874,1.829743,1.84125,3050,184,1829.743,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,25,1,0,1,1,0.015262,,0.130698,1.816405,1.82305,1.83625,3046,182,1823.05,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,25,1,0,1,1,0.011973,,0.132374,1.816225,1.824344,1.83625,3047,185,1824.344,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,50,1,0,1,1,0.017516,,0.131551,3.564091,3.578978,3.5925,3107,93,3578.978,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,50,1,0,1,1,0.017076,,0.130369,3.566825,3.57988,3.597083,3093,93,3579.88,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,50,1,0,1,1,0.018475,,0.131449,3.565802,3.589979,3.609166,3111,93,3589.979,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,75,1,0,1,1,0.022531,,0.130388,5.308272,5.332691,5.350416,3108,62,5332.691,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,75,1,0,1,1,0.022467,,0.13088,5.312936,5.342556,5.364583,3108,62,5342.5560000000005,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,0,5,10000,10000,75,1,0,1,1,0.020296,,0.131919,5.30918,5.326738,5.345,3114,63,5326.737999999999,VGG-16 - Bandwidth Optimized,Non-Quantized,VGG-16 - Bandwidth Optimized - Non-Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,0,1,0,1,1,0.011297,,0.127192,0.125447,0.137913,0.145416,2292,2221,137.913,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,0,1,0,1,1,0.011956,,0.133058,0.126174,0.139033,0.14625,2279,2313,139.033,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,0,1,0,1,1,0.012009,,0.137162,0.128428,0.138588,0.145833,2294,2368,138.588,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,25,1,0,1,1,0.014227,,0.126048,1.103431,1.111319,1.1275,3053,287,1111.319,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,25,1,0,1,1,0.01554,,0.127095,1.104464,1.113635,1.1275,3056,291,1113.635,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,25,1,0,1,1,0.012213,,0.127114,1.103131,1.120131,1.13125,3054,286,1120.131,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,50,1,0,1,1,0.017234,,0.127488,2.140653,2.158474,2.17375,3086,149,2158.474,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,50,1,0,1,1,0.012783,,0.127843,2.139135,2.156119,2.170416,3093,149,2156.1189999999997,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,50,1,0,1,1,0.017029,,0.126887,2.140972,2.154318,2.167916,3086,149,2154.3179999999998,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,75,1,0,1,1,0.022709,,0.124978,3.180639,3.237921,3.262083,3105,98,3237.9210000000003,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,75,1,0,1,1,0.022687,,0.127613,3.177128,3.205887,3.229583,3103,100,3205.887,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,74,1,1,5,10000,10000,75,1,0,1,1,0.02239,,0.127297,3.172504,3.190912,3.21375,3115,101,3190.912,VGG-16 - Bandwidth Optimized,Quantized,VGG-16 - Bandwidth Optimized - Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,0,1,0,1,1,0.012434,,0.133906,0.124972,0.133066,0.145,2270,2355,133.066,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,0,1,0,1,1,0.012187,,0.13686,0.125843,0.138118,0.150833,2239,2305,138.118,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,0,1,0,1,1,0.012785,,0.137455,0.125855,0.132671,0.144583,2225,2392,132.67100000000002,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,25,1,0,1,1,0.015414,,0.126188,0.93451,0.938014,0.954583,3156,344,938.014,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.03,3,1,0,4,512,174,1,0,5,10000,10000,25,1,0,1,1,0.015752,,0.125045,0.93469,0.947256,0.959583,3159,339,947.256,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,25,1,0,1,1,0.015226,,0.125354,0.934313,0.940024,0.955416,3161,341,940.024,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,50,1,0,1,1,0.018308,,0.126071,1.834135,1.850737,1.87125,3223,173,1850.737,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.03,3,1,0,4,512,174,1,0,5,10000,10000,50,1,0,1,1,0.0175,,0.125885,1.834181,1.862152,1.879166,3218,172,1862.152,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,50,1,0,1,1,0.017587,,0.126846,1.834681,1.853672,1.8675,3221,173,1853.672,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,75,1,0,1,1,0.02254,,0.127699,2.736717,2.775584,2.79875,3254,117,2775.584,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,75,1,0,1,1,0.022723,,0.127831,2.742901,2.774518,2.79375,3239,117,2774.518,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,0,5,10000,10000,75,1,0,1,1,0.021667,,0.12925,2.738355,2.781232,2.8025,3236,117,2781.232,VGG-16 - Balanced,Non-Quantized,VGG-16 - Balanced - Non-Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,0,1,0,1,1,0.0123,,0.130044,0.121011,0.132997,0.141666,2279,2353,132.997,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,0,1,0,1,1,0.010575,,0.130053,0.119247,0.126615,0.13625,2351,2412,126.61500000000001,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,0,1,0,1,1,0.011809,,0.132474,0.119822,0.136553,0.14375,2256,2325,136.553,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,25,1,0,1,1,0.01613,,0.121962,0.90033,0.907463,0.920416,3079,343,907.463,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,25,1,0,1,1,0.014591,,0.123334,0.90127,0.907524,0.923333,3084,344,907.524,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,25,1,0,1,1,0.010619,,0.121161,0.900075,0.909774,0.92125,3077,341,909.774,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,50,1,0,1,1,0.016965,,0.124072,1.752502,1.770322,1.785416,3137,177,1770.322,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,50,1,0,1,1,0.012791,,0.126875,1.75109,1.770689,1.784583,3131,181,1770.6889999999999,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,50,1,0,1,1,0.017607,,0.125365,1.749808,1.779667,1.79375,3125,178,1779.6670000000001,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,75,1,0,1,1,0.022547,,0.126171,2.606513,2.652873,2.67125,3160,121,2652.873,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,75,1,0,1,1,0.018929,,0.12431,2.603164,2.628043,2.645416,3145,119,2628.043,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,174,1,1,5,10000,10000,75,1,0,1,1,0.022593,,0.124927,2.600621,2.65192,2.675416,3156,120,2651.92,VGG-16 - Balanced,Quantized,VGG-16 - Balanced - Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,0,1,0,1,1,0.011891,,0.137902,0.123365,0.136515,0.143333,2182,2420,136.515,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,0,1,0,1,1,0.011537,,0.138097,0.124478,0.133259,0.140833,2272,2462,133.259,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,0,1,0,1,1,0.011801,,0.136847,0.125338,0.141887,0.149166,2336,2310,141.887,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,25,1,0,1,1,0.014563,,0.131087,1.002461,1.009123,1.023333,3102,329,1009.123,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,25,1,0,1,1,0.014101,,0.128114,1.001541,1.011479,1.022083,3092,323,1011.479,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,25,1,0,1,1,0.014472,,0.128974,1.002038,1.006979,1.0225,3088,323,1006.979,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,50,1,0,1,1,0.018778,,0.128429,1.942279,1.965254,1.984583,3142,167,1965.2540000000001,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,50,1,0,1,1,0.017503,,0.130271,1.945197,1.965108,1.979166,3141,168,1965.1080000000002,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,50,1,0,1,1,0.018101,,0.127243,1.947157,1.976314,1.994583,3144,164,1976.3139999999999,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,75,1,0,1,1,0.021172,,0.130582,2.885428,2.926935,2.944166,3164,112,2926.935,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,75,1,0,1,1,0.021117,,0.128507,2.881455,2.919872,2.937916,3178,111,2919.872,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,0,5,10000,10000,75,1,0,1,1,0.022463,,0.128486,2.886985,2.911877,2.935416,3164,111,2911.877,VGG-16 - Latency Optimized,Non-Quantized,VGG-16 - Latency Optimized - Non-Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,0,1,0,1,1,0.011945,,0.133582,0.117756,0.12716,0.139583,2213,2422,127.16,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,0,1,0,1,1,0.007177,,0.132487,0.120224,0.130765,0.137916,2272,2420,130.765,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,0,1,0,1,1,0.011663,,0.135235,0.11942,0.125849,0.134583,2338,2533,125.84899999999999,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,25,1,0,1,1,0.015418,,0.12617,0.969724,0.980353,0.995833,3069,328,980.3530000000001,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,25,1,0,1,1,0.014205,,0.124866,0.966618,0.972653,0.987083,3077,327,972.653,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,25,1,0,1,1,0.014947,,0.125072,0.966998,0.976005,0.989583,3070,326,976.005,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,50,1,0,1,1,0.018312,,0.127041,1.876744,1.913564,1.92875,3119,168,1913.564,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,50,1,0,1,1,0.019433,,0.126825,1.880025,1.895482,1.917083,3122,170,1895.482,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,50,1,0,1,1,0.01731,,0.126759,1.877602,1.892321,1.9075,3115,171,1892.321,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,75,1,0,1,1,0.020704,,0.125863,2.787595,2.8194,2.837916,3135,112,2819.4,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,75,1,0,1,1,0.022171,,0.126137,2.788411,2.836587,2.859166,3146,113,2836.587,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
+0.02,3,1,0,4,512,274,1,1,5,10000,10000,75,1,0,1,1,0.020924,,0.125883,2.784117,2.80488,2.822916,3132,113,2804.8799999999997,VGG-16 - Latency Optimized,Quantized,VGG-16 - Latency Optimized - Quantized
